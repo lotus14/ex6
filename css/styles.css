@@ -1,0 +1,135 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end css reset */
+
+body {
+	background-color: black;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	color: grey;
+	text-align: left;
+}
+
+.container {
+	width: 100%;
+	position: relative;
+}
+
+.container > header,
+.main {
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.container > header {
+	padding: 30px 25px 50px 25px;
+}
+
+.container > header h1 {
+	font-size: 18px;
+	margin: 0;
+	font-weight: 700;
+	color: darkblue;
+	float: left;
+	text-shadow: 0 0 1px rgba(0,0,0,0.2);
+	display: inline-block;
+	width: 50%;
+	min-width: 320px;
+}
+
+.container > header h1 span {
+	display: block;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.wrapper {
+	position: relative;
+	padding: 0 0 50px 0;
+}
+
+.header {
+	position: relative;
+	padding: 40px 0 20px 0;
+	margin: 0 0 40px;
+}
+
+.header h2,
+.header h3 {
+	font-weight: 300;
+	font-size: 40px;
+	width: 49%;
+	min-width: 320px;
+}
+.header h2 {
+	padding: 20px;
+	color: dimgrey;
+}
+.header h3 {
+	text-align: right;
+	padding-right: 140px;
+	color: grey;
+	float: right;
+}
+
+.intro {
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+
